@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MOdal Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+
+</head>
+<body>
+
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button data-modal-target="#modal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" >    
+      <div class="modal-header">
+        <div class="title">Modal Header</div>
+        <button data-close-button class="close-button" >&times;</button>
+      </div>
+      <div class="modal-body">
+        modal body.......
+      </div>
+  </div>
+
+  <div id="overlay"></div>
+
+</body>
+</html>
